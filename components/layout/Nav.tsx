@@ -37,7 +37,7 @@ export default function Nav({ rsvpPage = false }: NavProps) {
           </span>
         </>
       ) : (
-        <>
+        <div className="hidden sm:flex gap-4">
           <a
             href="#details"
             className="font-serif text-[0.75rem] tracking-[0.15em] uppercase text-ink-soft hover:text-gold transition-colors hidden sm:block"
@@ -56,7 +56,7 @@ export default function Nav({ rsvpPage = false }: NavProps) {
           >
             {t("rsvp")}
           </Link>
-        </>
+        </div>
       )}
 
       {/* <button
