@@ -9,7 +9,7 @@ export default function AboutSection() {
   const ref = useScrollReveal();
 
   return (
-    <section id="about" className="py-24 px-6 bg-white">
+    <section id="details" className="py-24 px-6 bg-white">
       <div ref={ref} className="reveal text-center">
         <p className="font-serif text-[0.72rem] tracking-[0.25em] uppercase text-gold mb-2">
           {t("label")}

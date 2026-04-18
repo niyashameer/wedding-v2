@@ -27,7 +27,7 @@ export default function HeroSection() {
       </div>
 
       {/* Names */}
-      <div className="text-center px-6 pt-8 relative z-10">
+      <div className="text-center px-6 pt-8 relative z-10 gap-8 px-6 py-3 bg-cream/85 nav-blur backdrop-blur-sm w-max mx-auto">
         <h1 className="animate-fade-up delay-200 font-script text-display-lg text-ink">
           {t("bride")}
         </h1>

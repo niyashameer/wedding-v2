@@ -46,7 +46,7 @@
     "wedding": {      
       "label": "Wedding",
       "value": "Wedding",
-      "sub": "Thursday, 20th August 2026 - 10:00 onwards"
+      "sub": "10:00 AM onwards, Cacatte Convention Centre, Mahe, Kerala."
     },
     "dresscode": {
       "label": "Dress Code",
@@ -92,8 +92,9 @@
     "cta": "RSVP Now"
   },
   "footer": {
-    "couple": "Neha & Nikhil",
-    "tagline": "With love · Aug 20th, 2026"
+    "couple": "Niya Shameer",
+    "tagline": "Best Compliments· Aug 20th, 2026",
+    "paintingCredit": "Illustration by Muhammad Shajir TP"
   },
   "rsvp": {
     "pageLabel": "RSVP",
