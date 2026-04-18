@@ -12,7 +12,7 @@ export default function HeroSection() {
   const locale = useLocale();
 
   return (
-    <header className="relative pt-14 overflow-hidden min-h-screen flex items-center justify-center flex-col gap-14">
+    <header className="relative pt-14 overflow-hidden min-h-screen flex items-end lg:items-center lg:justify-center flex-col gap-14">
       
       {/* Background SVG */}
       <div className="absolute inset-0 -z-10 mt-12">
@@ -20,14 +20,14 @@ export default function HeroSection() {
       </div>
 
       {/* Watercolour yellow header */}
-      <div className="">
-        <p className="animate-fade-in bg-cream/05 backdrop-blur-sm w-max mx-auto font-serif text-[0.78rem] tracking-[0.25em] uppercase text-center text-ink/70 p-4">
+      <div className="w-max">
+        <p className="animate-fade-in bg-cream/05 backdrop-blur-sm w-max lg:mx-auto float-right font-serif text-[0.78rem] tracking-[0.25em] uppercase text-center text-ink/70 pb-4 lg:pr-0 pr-4">
           {t("date")}
         </p>
       </div>
 
       {/* Names */}
-      <div className="text-center px-6 pt-8 relative z-10 gap-8 px-6 py-3 bg-cream/05 nav-blur backdrop-blur-sm w-max mx-auto">
+      <div className="text-center lg:px-6 lg:py-8 relative z-10 gap-8 bg-cream/05 nav-blur backdrop-blur-sm w-max lg:mx-auto self-right lg:pr-6 pr-4">
         <h1 className="animate-fade-up delay-200 font-script text-display-lg text-ink">
           {t("bride")}
         </h1>
