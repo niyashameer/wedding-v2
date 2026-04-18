@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "title": "Neha & Nikhil — 20th of August",
+    "description": "Celebrating our wedding day"
+  },
+  "nav": {
+    "story": "Our Story",
+    "details": "Details",
+    "program": "Schedule",
+    "rsvp": "RSVP",
+    "back": "← Back"
+  },
+  "localeSwitch": {
+    "label": "PT"
+  },
+  "hero": {
+    "date": "August 20th, 2026",
+    "bride": "Neha",
+    "groom": "Nikhil",
+    "connector": "AND",
+    "tagline": "Celebrating the beginning of our life together",
+    "cta": "RSVP Now"
+  },
+  "about": {
+    "label": "You are cordially invited to the wedding of",
+    "title": "How it all began",
+    "bride": {
+      "fullname": "Neha Shameer",
+      "parents": "D/O Shameer MC & Sreeja Shameer",
+      "grandparents": "Grand D/O of late Sreedharan Nambiar and Rajalakshmi Nambiar, late Karipal Abdulla and late CM Sulaika"
+    },
+    "groom": {
+      "fullname": "Nikhil Megh Shaji",
+      "parents": "S/O Muhammad Shajir TP & Prameela Shaji",
+      "grandparents": "Grand S/O of late PP Hameed & Aysha TP, late Vasudevan C & late OC Shantha"
+    }
+  },
+  "details": {
+    "label": "Where & When",
+    "title": "Details",
+    "date": {
+      "label": "Date",
+      "value": "August 20th",
+      "sub": "2026"
+    },
+    "wedding": {      
+      "label": "Wedding",
+      "value": "Wedding",
+      "sub": "Thursday, 20th August 2026 - 10:00 onwards"
+    },
+    "dresscode": {
+      "label": "Dress Code",
+      "value": "Formal western or Indian Attire",
+      "sub": "Earthy & natural tones"
+    }
+  },
+  "program": {
+    "label": "The Day",
+    "title": "Schedule",
+    "items": [
+      {
+        "time": "2:30 PM",
+        "event": "Guests arrive"
+      },
+      {
+        "time": "3:00 PM",
+        "event": "Ceremony"
+      },
+      {
+        "time": "4:00 PM",
+        "event": "Photo session"
+      },
+      {
+        "time": "6:30 PM",
+        "event": "Welcome cocktail"
+      },
+      {
+        "time": "8:00 PM",
+        "event": "Dinner & dancing"
+      },
+      {
+        "time": "12:00 AM",
+        "event": "Surprises & celebrations"
+      }
+    ]
+  },
+  "rsvpCta": {
+    "label": "RSVP",
+    "title": "Will you join us?",
+    "body": "Please confirm your attendance by",
+    "deadline": "May 1st, 2026",
+    "cta": "RSVP Now"
+  },
+  "footer": {
+    "couple": "Neha & Nikhil",
+    "tagline": "With love · Aug 20th, 2026"
+  },
+  "rsvp": {
+    "pageLabel": "RSVP",
+    "pageTitle": "Confirm Your Attendance",
+    "pageSubtitle": "Please confirm your attendance by",
+    "pageDeadline": "May 1st, 2026",
+    "pageBody": "Your presence is our greatest gift.",
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "Your name",
+      "nameRequired": "Name is required",
+      "email": "Email",
+      "emailPlaceholder": "name@email.com",
+      "emailRequired": "Email is required",
+      "attending": "Attendance",
+      "attendingRequired": "Please select an option",
+      "attendingYes": "Yes, I'll be there 🎉",
+      "attendingNo": "Sorry, I can't make it",
+      "guests": "Number of guests",
+      "guestsOption": "{count} {count, plural, one {person} other {people}}",
+      "dietary": "Dietary requirements",
+      "dietaryNone": "No restrictions",
+      "dietaryVegetarian": "Vegetarian",
+      "dietaryVegan": "Vegan",
+      "dietaryGlutenFree": "Gluten-free",
+      "dietaryOther": "Other (mention in notes)",
+      "message": "Message",
+      "messagePlaceholder": "A message for the couple, specific allergies…",
+      "submit": "Send RSVP",
+      "submitting": "Sending…",
+      "validationError": "Please fill in all required fields.",
+      "serverError": "Something went wrong. Please try again."
+    },
+    "success": {
+      "titleYes": "See you there!",
+      "bodyYes": "We're so happy you'll be joining us on this special day. You'll receive more details soon.",
+      "titleNo": "We received your reply",
+      "bodyNo": "We're sorry you can't make it, but thank you for letting us know.",
+      "backHome": "Back to home"
+    }
+  }
+}
