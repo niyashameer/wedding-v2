@@ -44,7 +44,7 @@
       "sub": "2026"
     },
     "wedding": {      
-      "label": "Wedding",
+      "label": "Venue",
       "value": "Wedding",
       "sub": "10:00 AM onwards, Cacatte Convention Centre, Mahe, Kerala."
     },
@@ -93,13 +93,13 @@
   },
   "footer": {
     "couple": "Niya Shameer",
-    "tagline": "Best Compliments· Aug 20th, 2026",
+    "tagline": "With Best Compliments from",
     "paintingCredit": "Illustration by Muhammad Shajir TP"
   },
   "rsvp": {
     "pageLabel": "RSVP",
     "pageTitle": "Confirm Your Attendance",
-    "pageSubtitle": "Please confirm your attendance by",
+    "pageSubtitle": "Please confirm your presence by",
     "pageDeadline": "May 1st, 2026",
     "pageBody": "Your presence is our greatest gift.",
     "form": {

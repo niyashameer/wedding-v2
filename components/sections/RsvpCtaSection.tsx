@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
+import Butterfly from "../svg/Butterfly";
 
 export default function RsvpCtaSection() {
   const t = useTranslations("rsvpCta");
@@ -10,8 +11,11 @@ export default function RsvpCtaSection() {
   const ref = useScrollReveal();
 
   return (
-    <section className="py-24 px-6 bg-ink text-cream">
+    <section className="py-24 px-6 bg-ink text-cream relative">
       <div ref={ref} className="reveal text-center">
+      <div className="absolute -z-10 lg:-mt-[38px] md:-mt-[50px] -mt-[62px] opacity-30">
+        <Butterfly />
+      </div>
         <p className="font-serif text-[0.72rem] tracking-[0.25em] uppercase text-gold-light mb-3">
           {t("label")}
         </p>

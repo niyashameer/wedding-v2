@@ -24,13 +24,13 @@ export default {
       // },
       colors: {
         gold: {
-          DEFAULT: "#6E7B63",   // main sage
+          DEFAULT: "#9AA970",   // main sage
           light: "#96A493",
         },
-        cream: "#E4DED6",
+        cream: "#E5DCD7",
         accent: "#A49C90",
         ink: {
-          DEFAULT: "#545454",
+          DEFAULT: "#221310",
           soft: "#A49C90",
         },
       },

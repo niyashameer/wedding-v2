@@ -12,13 +12,13 @@ export default function HeroSection() {
     <header className="relative pt-14 overflow-hidden min-h-screen flex items-center justify-center flex-col gap-14">
       
       {/* Background SVG */}
-      <div className="absolute inset-0 -z-10 mt-12">
+      <div className="absolute inset-0 -z-10">
         <ArtistImpression />
       </div>
 
       {/* Watercolour yellow header */}
       <div className="w-max">
-        <p className="animate-fade-in bg-cream/05 backdrop-blur-sm w-max lg:mx-auto float-right font-serif text-[0.78rem] tracking-[0.25em] uppercase text-center text-ink/70 p-2">
+        <p className="animate-fade-in font-extrabold bg-cream/05 backdrop-blur-sm w-max lg:mx-auto float-right font-serif text-[0.78rem] tracking-[0.25em] uppercase text-center text-ink/70 p-2">
           {t("date")}
         </p>
       </div>
@@ -42,7 +42,7 @@ export default function HeroSection() {
         <div className="animate-fade-up delay-1400 mt-8">
           <Link
             href={`/${locale}/rsvp`}
-            className="inline-block px-10 py-3 bg-ink text-cream font-serif text-[0.78rem] tracking-[0.2em] uppercase hover:bg-gold hover:text-cream hover:border-ink transition-colors duration-300"
+            className="inline-block px-10 py-3 bg-ink text-cream font-serif text-[0.78rem] tracking-[0.2em] uppercase hover:bg-cream hover:text-ink hover:border-ink transition-colors duration-300"
           >
             {t("cta")}
           </Link>

@@ -7,15 +7,15 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 function IconCalendar() {
   return (
     <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-9 h-9">
-      <rect x="6" y="10" width="36" height="32" rx="1.5" stroke="#c8a84b" strokeWidth="1.2"/>
-      <line x1="6" y1="19" x2="42" y2="19" stroke="#c8a84b" strokeWidth="1.2"/>
-      <line x1="16" y1="6" x2="16" y2="14" stroke="#c8a84b" strokeWidth="1.2" strokeLinecap="round"/>
-      <line x1="32" y1="6" x2="32" y2="14" stroke="#c8a84b" strokeWidth="1.2" strokeLinecap="round"/>
-      <rect x="14" y="24" width="5" height="5" rx="0.5" fill="#c8a84b" opacity="0.5"/>
-      <rect x="21.5" y="24" width="5" height="5" rx="0.5" fill="#c8a84b" opacity="0.5"/>
-      <rect x="29" y="24" width="5" height="5" rx="0.5" fill="#c8a84b" opacity="0.5"/>
-      <rect x="14" y="32" width="5" height="5" rx="0.5" fill="#c8a84b" opacity="0.25"/>
-      <rect x="21.5" y="32" width="5" height="5" rx="0.5" fill="#c8a84b" opacity="0.25"/>
+      <rect x="6" y="10" width="36" height="32" rx="1.5" stroke="#9AA970" strokeWidth="1.2"/>
+      <line x1="6" y1="19" x2="42" y2="19" stroke="#9AA970" strokeWidth="1.2"/>
+      <line x1="16" y1="6" x2="16" y2="14" stroke="#9AA970" strokeWidth="1.2" strokeLinecap="round"/>
+      <line x1="32" y1="6" x2="32" y2="14" stroke="#9AA970" strokeWidth="1.2" strokeLinecap="round"/>
+      <rect x="14" y="24" width="5" height="5" rx="0.5" fill="#9AA970" opacity="0.5"/>
+      <rect x="21.5" y="24" width="5" height="5" rx="0.5" fill="#9AA970" opacity="0.5"/>
+      <rect x="29" y="24" width="5" height="5" rx="0.5" fill="#9AA970" opacity="0.5"/>
+      <rect x="14" y="32" width="5" height="5" rx="0.5" fill="#9AA970" opacity="0.25"/>
+      <rect x="21.5" y="32" width="5" height="5" rx="0.5" fill="#9AA970" opacity="0.25"/>
     </svg>
   );
 }
@@ -24,9 +24,9 @@ function IconPin() {
   return (
     <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-9 h-9">
       <path d="M24 6C17.4 6 12 11.4 12 18c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12Z"
-        stroke="#c8a84b" strokeWidth="1.2"/>
-      <circle cx="24" cy="18" r="4.5" stroke="#c8a84b" strokeWidth="1.2"/>
-      <circle cx="24" cy="18" r="1.8" fill="#c8a84b" opacity="0.45"/>
+        stroke="#9AA970" strokeWidth="1.2"/>
+      <circle cx="24" cy="18" r="4.5" stroke="#9AA970" strokeWidth="1.2"/>
+      <circle cx="24" cy="18" r="1.8" fill="#9AA970" opacity="0.45"/>
     </svg>
   );
 }
@@ -35,12 +35,12 @@ function IconDressCode() {
   return (
     <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-9 h-9">
       <path d="M16 8 L8 17 L13 19 L13 40 L35 40 L35 19 L40 17 L32 8"
-        stroke="#c8a84b" strokeWidth="1.2" strokeLinejoin="round"/>
+        stroke="#9AA970" strokeWidth="1.2" strokeLinejoin="round"/>
       <path d="M16 8 Q20 15 24 15 Q28 15 32 8"
-        stroke="#c8a84b" strokeWidth="1.2" fill="none"/>
+        stroke="#9AA970" strokeWidth="1.2" fill="none"/>
       <path d="M21 14.5 L24 17 L27 14.5"
-        stroke="#c8a84b" strokeWidth="1" strokeLinejoin="round" fill="none" opacity="0.6"/>
-      <line x1="24" y1="17" x2="24" y2="22" stroke="#c8a84b" strokeWidth="1" opacity="0.5"/>
+        stroke="#9AA970" strokeWidth="1" strokeLinejoin="round" fill="none" opacity="0.6"/>
+      <line x1="24" y1="17" x2="24" y2="22" stroke="#9AA970" strokeWidth="1" opacity="0.5"/>
     </svg>
   );
 }
