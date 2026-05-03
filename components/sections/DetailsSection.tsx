@@ -93,11 +93,11 @@ export default function DetailsSection() {
               {t(`${key}.label`)}
             </p>
 
-            <p className="font-script text-[1.7rem] text-ink leading-snug mb-1">
+            <p className="font-script text-[2rem] text-ink leading-snug mb-1">
               {t(`${key}.value`)}
             </p>
 
-            <p className="font-serif text-[0.83rem] italic text-ink-soft leading-relaxed">
+            <p className="font-serif italic text-ink-soft leading-relaxed">
               {t(`${key}.sub`)}
             </p>
 

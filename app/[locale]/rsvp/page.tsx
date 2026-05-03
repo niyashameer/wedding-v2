@@ -6,12 +6,8 @@ export default function RsvpPage() {
   return (
     <>
       <Nav rsvpPage />
-      <main className="pt-20 pb-16">
-        {/* Mini watercolour header */}
-        <div
-          className="watercolor-clip w-full h-20 bg-watercolor-header"
-          aria-hidden="true"
-        />
+      <main className="pt-10 pb-16">
+        
         <RsvpForm />
       </main>
       <Footer />

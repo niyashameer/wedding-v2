@@ -2,15 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ─── Fonts ─── */
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap");
-
-/* ─── CSS variables ─── */
-:root {
-  --font-script: "Great Vibes", cursive;
-  --font-serif: "Cormorant Garamond", serif;
-}
-
 /* ─── Base ─── */
 html {
   scroll-behavior: smooth;

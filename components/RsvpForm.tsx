@@ -73,9 +73,9 @@ export default function RsvpForm() {
         </p>
         <h1 className="font-script text-display-sm text-ink">{t("pageTitle")}</h1>
         <Divider />
-        <p className="font-serif text-[1.05rem] font-light text-ink-soft max-w-lg mx-auto">
+        <p className="font-serif text-[1.05rem] font-light text-ink-soft max-w-lg mx-auto [font-variant-ligatures:none]">
           {t("pageSubtitle")}{" "}
-          <em>{t("pageDeadline")}</em>. {t("pageBody")}
+          <em>{t("pageDeadline")}</em>.
         </p>
       </div>
 
@@ -95,7 +95,7 @@ export default function RsvpForm() {
             </p>
             <Link
               href={`/${locale}`}
-              className="inline-block mt-8 px-8 py-3 bg-ink text-cream font-serif text-[0.78rem] tracking-[0.15em] uppercase hover:bg-gold hover:text-ink transition-colors duration-300"
+              className="inline-block mt-8 px-8 py-3 bg-ink text-cream font-serif text-[0.78rem] tracking-[0.15em] uppercase hover:bg-gold transition-colors duration-300"
             >
               {ts("backHome")}
             </Link>
@@ -221,7 +221,7 @@ export default function RsvpForm() {
               type="button"
               onClick={handleSubmit}
               disabled={status === "loading"}
-              className="w-full mt-2 py-4 bg-ink text-cream font-serif text-[0.78rem] tracking-[0.2em] uppercase hover:bg-gold hover:text-ink transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full mt-2 py-4 bg-ink text-cream font-serif text-[0.78rem] tracking-[0.2em] uppercase hover:bg-gold transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {status === "loading" ? tf("submitting") : tf("submit")}
             </button>

@@ -7,24 +7,36 @@ export default {
   ],
   theme: {
     extend: {
+      // colors: {
+      //   gold: {
+      //     DEFAULT: "#c8a84b",
+      //     light: "#f0d890",
+      //     wash: "#fdf3c8",
+      //   },
+      //   cream: "#faf8f2",
+      //   ink: {
+      //     DEFAULT: "#2c2416", //"#2c2416"
+      //     soft: "#5a4e38",
+      //   },
+      //   sage: "#7a8c6a",
+      //   terracotta: "#c0734a",
+      //   "sky-wash": "#b8d4e8",
+      // },
       colors: {
         gold: {
-          DEFAULT: "#c8a84b",
-          light: "#f0d890",
-          wash: "#fdf3c8",
+          DEFAULT: "#6E7B63",   // main sage
+          light: "#96A493",
         },
-        cream: "#faf8f2",
+        cream: "#E4DED6",
+        accent: "#A49C90",
         ink: {
-          DEFAULT: "#2c2416", //"#2c2416"
-          soft: "#5a4e38",
+          DEFAULT: "#545454",
+          soft: "#A49C90",
         },
-        sage: "#7a8c6a",
-        terracotta: "#c0734a",
-        "sky-wash": "#b8d4e8",
       },
       fontFamily: {
-        script: ["var(--font-script)", "cursive"],
-        serif: ["var(--font-serif)", "serif"],
+        script: "var(--font-script)",
+        serif: "var(--font-serif)",
       },
       fontSize: {
         "display-sm": ["clamp(2.5rem, 6vw, 4rem)", { lineHeight: "1.1" }],

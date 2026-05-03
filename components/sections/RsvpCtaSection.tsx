@@ -18,13 +18,13 @@ export default function RsvpCtaSection() {
         <h2 className="font-script text-display-sm text-cream mb-4">
           {t("title")}
         </h2>
-        <p className="font-serif text-base font-light text-cream/70 max-w-md mx-auto mb-8">
+        <p className="font-serif text-base font-light text-cream/70 max-w-md mx-auto mb-8 [font-variant-ligatures:none]">
           {t("body")}
           <em className="text-cream/90">{t("deadline")}</em>.
         </p>
         <Link
           href={`/${locale}/rsvp`}
-          className="inline-block px-12 py-3 border border-gold/50 text-gold-light font-serif text-[0.78rem] tracking-[0.2em] uppercase hover:bg-gold hover:text-ink hover:border-gold transition-all duration-300"
+          className="inline-block px-12 py-3 border border-gold/50 text-gold-light font-serif text-[0.78rem] tracking-[0.2em] uppercase hover:bg-gold/30 hover:text-cream hover:border-gold transition-all duration-300"
         >
           {t("cta")}
         </Link>
