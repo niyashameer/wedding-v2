@@ -88,7 +88,7 @@
     "label": "RSVP",
     "title": "Will you join us?",
     "body": "Please confirm your attendance by ",
-    "deadline": "May 1st, 2026",
+    "deadline": "May 31st, 2026",
     "cta": "RSVP Now"
   },
   "footer": {
@@ -100,7 +100,7 @@
     "pageLabel": "RSVP",
     "pageTitle": "Confirm Your Attendance",
     "pageSubtitle": "Please confirm your presence by",
-    "pageDeadline": "May 1st, 2026",
+    "pageDeadline": "May 31st, 2026",
     "pageBody": "Your presence is our greatest gift.",
     "form": {
       "name": "Full name",
