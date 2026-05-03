@@ -10,7 +10,7 @@ export default function Footer() {
       <p className="font-serif text-[0.8rem] tracking-[0.1em] text-ink-soft">
         {t("tagline")}
       </p>
-      <p className="font-script text-2xl text-ink mb-1">{t("couple")}</p>
+      <p className="font-script text-2xl text-ink mb-1"><span className="mr-[-0.30em]">N</span>{t("sister")}</p>
     </footer>
   );
 }
