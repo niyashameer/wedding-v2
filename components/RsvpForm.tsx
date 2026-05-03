@@ -173,9 +173,8 @@ export default function RsvpForm() {
                   >
                     {[1, 2, 3, 4, 5].map((n) => (
                       <option key={n} value={n}>
-                        {n} {n === 1 ? tf("dietaryNone").split(" ")[0] : ""}{" "}
-                        {/* fallback label; the select shows numbers */}
-                        {n === 1 ? "person" : "persons"}
+                        {n}&nbsp;
+                        {n === 1 ? "person" : "people"}
                       </option>
                     ))}
                   </select>
@@ -190,8 +189,6 @@ export default function RsvpForm() {
                   >
                     <option value="">{tf("dietaryNone")}</option>
                     <option value="vegetarian">{tf("dietaryVegetarian")}</option>
-                    <option value="vegan">{tf("dietaryVegan")}</option>
-                    <option value="gluten-free">{tf("dietaryGlutenFree")}</option>
                     <option value="other">{tf("dietaryOther")}</option>
                   </select>
                 </div>

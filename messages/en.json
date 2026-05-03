@@ -111,7 +111,7 @@
       "emailRequired": "Email is required",
       "attending": "Attendance",
       "attendingRequired": "Please select an option",
-      "attendingYes": "Yes, I'll be there 🎉",
+      "attendingYes": "Yes, I'll be there!",
       "attendingNo": "Sorry, I can't make it",
       "guests": "Number of guests",
       "guestsOption": "{count} {count, plural, one {person} other {people}}",

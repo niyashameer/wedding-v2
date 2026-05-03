@@ -53,7 +53,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${champignon.variable} ${mrsEaves.variable}`}
+      className={`${champignon.variable} ${mrsEaves.variable} [font-variant-ligatures:none]`}
     >
       <body className="bg-cream/10 text-ink antialiased">
         <NextIntlClientProvider messages={messages}>
