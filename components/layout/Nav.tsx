@@ -39,16 +39,16 @@ export default function Nav({ rsvpPage = false }: NavProps) {
       ) : (
         <div className="flex md:gap-4 gap-2">
           <a
+            href="#about"
+            className="font-serif text-[0.75rem] tracking-[0.15em] uppercase text-ink-soft hover:text-gold transition-colors hidden sm:block"
+          >
+            {t("about")}
+          </a>
+          <a
             href="#details"
             className="font-serif text-[0.75rem] tracking-[0.15em] uppercase text-ink-soft hover:text-gold transition-colors hidden sm:block"
           >
             {t("details")}
-          </a>
-          <a
-            href="#schedule"
-            className="font-serif text-[0.75rem] tracking-[0.15em] uppercase text-ink-soft hover:text-gold transition-colors hidden sm:block"
-          >
-            {t("program")}
           </a>
           <Link
             href={`/${locale}/rsvp`}
