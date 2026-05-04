@@ -15,14 +15,14 @@ export default function AboutSection() {
           {t("label")}
         </p>
         <div className="flex flex-col">
-          <p className="font-serif text-[1.08rem] font-light leading-[1.9] text-ink-soft text-center max-w-xl mx-auto">{t("bride.fullname")}</p>
+          <p className="font-serif text-[1.20rem] leading-[1.9] font-semibold text-ink-soft text-center max-w-xl mx-auto">{t("bride.fullname")}</p>
           <p className="font-serif text-[1.08rem] font-light leading-[1.9] text-ink-soft text-center max-w-xl mx-auto">{t("bride.parents")}</p>
           <p className="font-serif text-[1.08rem] font-light leading-[1.9] text-ink-soft text-center max-w-xl mx-auto">{t("bride.grandparents")}</p>
         </div>
 
           <Divider />
           <div className="flex flex-col">
-          <p className="font-serif text-[1.08rem] font-light leading-[1.9] text-ink-soft text-center max-w-xl mx-auto">{t("groom.fullname")}</p>
+          <p className="font-serif text-[1.20rem] leading-[1.9] font-semibold text-ink-soft text-center max-w-xl mx-auto">{t("groom.fullname")}</p>
           <p className="font-serif text-[1.08rem] font-light leading-[1.9] text-ink-soft text-center max-w-xl mx-auto">{t("groom.parents")}</p>
           <p className="font-serif text-[1.08rem] font-light leading-[1.9] text-ink-soft text-center max-w-xl mx-auto">{t("groom.grandparents")}</p>
         </div>

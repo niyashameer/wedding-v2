@@ -14,7 +14,6 @@ export default function HomePage() {
         <HeroSection />
         <AboutSection />
         <DetailsSection />
-        {/* <ProgramSection /> */}
         <RsvpCtaSection />
       </main>
       <Footer />

@@ -73,10 +73,6 @@ export default function RsvpForm() {
         </p>
         <h1 className="font-script text-display-sm text-ink">{t("pageTitle")}</h1>
         <Divider />
-        <p className="font-serif text-[1.05rem] font-light text-ink-soft max-w-lg mx-auto [font-variant-ligatures:none]">
-          {t("pageSubtitle")}{" "}
-          <em>{t("pageDeadline")}</em>.
-        </p>
       </div>
 
       {/* Card */}
@@ -199,7 +195,7 @@ export default function RsvpForm() {
             <div>
               <label className={labelClass}>{tf("message")}</label>
               <textarea
-                className={`${inputClass} resize-y min-h-[90px]`}
+                className={`${inputClass} resize-y min-h-[90px] [font-variant-ligatures:none]`}
                 placeholder={tf("messagePlaceholder")}
                 value={form.message}
                 onChange={set("message")}
