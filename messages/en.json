@@ -130,7 +130,7 @@
     },
     "success": {
       "titleYes": "See you there!",
-      "bodyYes": "We're so happy you'll be joining us on this special day. You'll receive more details soon.",
+      "bodyYes": "We're so happy you'll be joining us on this special day.",
       "titleNo": "We received your reply",
       "bodyNo": "We're sorry you can't make it, but thank you for letting us know.",
       "backHome": "Back to home"
