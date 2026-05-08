@@ -116,7 +116,7 @@ export default function RsvpForm() {
             </div>
 
             {/* Email */}
-            <div>
+            {/* <div>
               <label className={labelClass}>
                 {tf("email")}{" "}
                 <span className="text-gold" aria-hidden="true">*</span>
@@ -129,10 +129,10 @@ export default function RsvpForm() {
                 onChange={set("email")}
                 required
               />
-            </div>
+            </div> */}
 
             {/* Attending */}
-            <div>
+            {/* <div>
               <label className={labelClass}>
                 {tf("attending")}{" "}
                 <span className="text-gold" aria-hidden="true">*</span>
@@ -155,10 +155,10 @@ export default function RsvpForm() {
                   </label>
                 ))}
               </div>
-            </div>
+            </div> */}
 
             {/* Guests + Dietary — only if attending */}
-            {form.attending === "yes" && (
+            {/* {form.attending === "yes" && (
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                 <div>
                   <label className={labelClass}>{tf("guests")}</label>
@@ -189,7 +189,7 @@ export default function RsvpForm() {
                   </select>
                 </div>
               </div>
-            )}
+            )} */}
 
             {/* Message */}
             <div>

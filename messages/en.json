@@ -87,7 +87,7 @@
   },
   "rsvpCta": {
     "label": "RSVP",
-    "title": "Will you join us?",
+    "title": "We look forward to your presence on this special occasion",
     "body": "Please confirm your attendance by ",
     "deadline": "May 31st, 2026",
     "cta": "RSVP Now"
@@ -99,7 +99,7 @@
   },
   "rsvp": {
     "pageLabel": "RSVP",
-    "pageTitle": "Confirm Your Presence",
+    "pageTitle": "We look forward to celebrating with you",
     "pageSubtitle": "Please confirm your presence by",
     "pageDeadline": "May 31st, 2026",
     "pageBody": "Your presence is our greatest gift.",
@@ -123,7 +123,7 @@
       "dietaryGlutenFree": "Gluten-free",
       "dietaryOther": "Other (mention in notes)",
       "message": "Message",
-      "messagePlaceholder": "A message for the couple, specific allergies…",
+      "messagePlaceholder": "Share your wishes for the couple, or let us know of any specific requirements (allergies, etc.)",
       "submit": "Send RSVP",
       "submitting": "Sending…",
       "validationError": "Please fill in all required fields.",

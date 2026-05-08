@@ -24,7 +24,7 @@ export default function HeroSection() {
       </div>
 
       {/* Names */}
-      <div className="text-center lg:px-6 lg:py-8 relative z-10 gap-8 bg-cream/05 w-max lg:mx-auto self-right">
+      <div className="text-center lg:px-6 lg:py-8 relative z-10 gap-8 bg-cream/05 w-max px-10 lg:mx-auto self-right">
         <h1 className="animate-fade-up delay-200 font-script text-display-lg text-ink tracking-tight">
         <span className="mr-[-0.5em]">N</span>eha
           {/* {t("bride")} */}
