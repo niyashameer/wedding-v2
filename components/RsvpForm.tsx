@@ -87,7 +87,7 @@ console.log("Submitting RSVP with data:", { name: form.name, email: "", attendin
               {form.attending === "yes" ? ts("titleYes") : ts("titleNo")}
             </h2>
             <p className="font-serif font-light text-ink-soft leading-relaxed max-w-sm mx-auto">
-              {form.attending === "yes" ? ts("bodyYes") : ts("bodyNo")}
+              {form.attending === "yes" ? ts("bodyYes") : ts("bodyYes")}
             </p>
             <Link
               href={`/${locale}`}
