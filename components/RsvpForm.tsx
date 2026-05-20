@@ -50,7 +50,7 @@ export default function RsvpForm() {
     setErrorMsg("");
 
     try {
-      await submitRsvp({ name: form?.name, message:form.message });
+      await submitRsvp({ name: form?.name, email: "", attending: "yes", guests: "", dietary: "", message:form.message });
       setStatus("success");
     } catch {
       setErrorMsg(tf("serverError"));
