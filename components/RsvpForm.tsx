@@ -48,9 +48,9 @@ export default function RsvpForm() {
     }
     setStatus("loading");
     setErrorMsg("");
-
+console.log("Submitting RSVP with data:", { name: form.name, email: "", attending: "yes", guests: "", dietary: "", message:form.message });
     try {
-      await submitRsvp({ name: form?.name, email: "", attending: "yes", guests: "", dietary: "", message:form.message });
+      await submitRsvp({ name: form?.name, email: "", attending: "yes", guests: "1", dietary: "", message:form.message });
       setStatus("success");
     } catch {
       setErrorMsg(tf("serverError"));
