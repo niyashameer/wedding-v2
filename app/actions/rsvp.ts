@@ -6,7 +6,7 @@ import { FormState } from "@/components/RsvpForm";
 
 const attempts = new Map<string, number[]>();
 
-export async function submitRsvp(data: FormState) {
+export async function submitRsvp(data: Partial<FormState>) {
     const { error } = await supabaseAdmin.from("rsvps").insert([data]);
     if (error) throw new Error("Failed to submit");
   }

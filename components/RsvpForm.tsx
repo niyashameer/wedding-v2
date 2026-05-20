@@ -42,7 +42,7 @@ export default function RsvpForm() {
       setForm((prev) => ({ ...prev, [field]: e.target.value }));
 
   const handleSubmit = async () => {
-    if (!form.name || !form.email) {
+    if (!form.name) {
       setErrorMsg(tf("validationError"));
       return;
     }
@@ -50,7 +50,7 @@ export default function RsvpForm() {
     setErrorMsg("");
 
     try {
-      await submitRsvp({ name: form?.name, email: form.email, attending: form.attending, guests: form.guests, dietary:form.dietary, message:form.message });
+      await submitRsvp({ name: form?.name, message:form.message });
       setStatus("success");
     } catch {
       setErrorMsg(tf("serverError"));
