@@ -42,7 +42,7 @@ export default function RsvpForm() {
       setForm((prev) => ({ ...prev, [field]: e.target.value }));
 
   const handleSubmit = async () => {
-    if (!form.name || !form.email || !form.attending) {
+    if (!form.name || !form.email) {
       setErrorMsg(tf("validationError"));
       return;
     }
